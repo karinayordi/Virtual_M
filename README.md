@@ -53,3 +53,47 @@ Sign in to the Azure portal at https://portal.azure.com.
 <p>
 <img src="https://i.imgur.com/uPslhC4.png" height="80%" width="80%" 
 </p>
+  
+ 8. After validation runs, select the Create button at the bottom of the page.
+</p>
+
+<p>
+<img src="https://i.imgur.com/jJeSyxQ.png" height="80%" width="80%" 
+</p>
+
+ 9. After deployment is complete, select Go to resource.
+</p>
+
+<p>
+<img src="https://i.imgur.com/ORsbcEU.png" height="80%" width="80%" 
+</p>
+  
+<h2>Connect to Virtual Machine</h2>
+</p>
+
+<p>
+Create a remote desktop connection to the virtual machine. These directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store.
+</p>
+
+ 1. On the overview page for your virtual machine, select the Connect > RDP.
+</p>
+
+<p>
+<img src="https://i.imgur.com/JrCU2aa.png" height="80%" width="80%" 
+</p>
+
+ 2. In the Connect with RDP tab, keep the default options to connect by IP address, over port 3389, and click Download RDP file.
+</p>
+
+<p>
+<img src="https://i.imgur.com/zzIVd7d.png" height="80%" width="80%" 
+</p>
+  
+3. Open the downloaded RDP file and click Connect when prompted.
+</p>
+
+4. In the Windows Security window, select More choices and then Use a different account. Type the username as localhost\username, enter the password you created for the virtual machine, and then click OK.
+</p>
+
+5. You may receive a certificate warning during the sign-in process. Click Yes or Continue to create the connection.
+</p>
