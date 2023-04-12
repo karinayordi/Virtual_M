@@ -97,3 +97,44 @@ Create a remote desktop connection to the virtual machine. These directions tell
 
 5. You may receive a certificate warning during the sign-in process. Click Yes or Continue to create the connection.
 </p>
+
+<h2>Install web server</h2>
+</p>
+
+To see your VM in action, install the IIS web server. Open a PowerShell prompt on the VM and run the following command:
+</p>
+
+<p>
+<img src="https://i.imgur.com/0EAu4Ns.png" height="80%" width="80%" 
+</p>
+
+When done, close the RDP connection to the VM.
+ </p>
+ 
+ <h2>View the IIS welcome page</h2>
+</p>
+
+In the portal, select the VM and in the overview of the VM, hover over the IP address to show Copy to clipboard. Copy the IP address and paste it into a browser tab. The default IIS welcome page will open, and should look like this:
+</p>
+
+<p>
+<img src="https://i.imgur.com/SUUtxWL.png" height="80%" width="80%" 
+</p>
+  
+  <h2>Clean up Resources</h2>
+</p> 
+
+When no longer needed, you can delete the resource group, virtual machine, and all related resources.
+</p>
+
+1. On the Overview page for the VM, select the Resource group link.
+</p>
+
+2. At the top of the page for the resource group, select Delete resource group.
+</p>
+
+3. A page will open warning you that you are about to delete resources. Type the name of the resource group and select Delete to finish deleting the resources and the resource group.
+</p>
+
+Congrats! In this quickstart, you deployed a simple virtual machine, opened a network port for web traffic, and installed a basic web server.
+</p>
