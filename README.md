@@ -33,7 +33,7 @@ Sign in to the Azure portal at https://portal.azure.com.
 <img src="https://i.imgur.com/LamTOnJ.png" height="80%" width="80%" 
 </p>
 
-5. Under Administrator account, provide a username, such as azureuser and a password. The password must be at least 12 characters long and meet the defined complexity requirements.
+5. Under **Administrator account** , provide a username, such as azureuser and a password. The password must be at least 12 characters long and meet the defined complexity requirements.
 </p>
 
  <p>
