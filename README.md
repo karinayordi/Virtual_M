@@ -20,11 +20,17 @@ Sign in to the Azure portal at https://portal.azure.com.
 
 <h2>Create virtual machine</h2>
 1. Enter virtual machines in the search.
+
 </p>
+
 2. Under **Services**, select **Virtual machines**.
+
 </p>
+
 3. In the **Virtual machines** page, select **Create** and then **Azure virtual machine**. The **Create a virtual machine** page opens.
+
 </p>
+
 4. Under **Instance details**, enter myVM for the **Virtual machine name** and choose Windows Server 2019 Datacenter - Gen 2 for the **Image**. Leave the other defaults.
   
   <p>
@@ -34,34 +40,39 @@ Sign in to the Azure portal at https://portal.azure.com.
 </p>
 
 5. Under **Administrator account** , provide a username, such as azureuser and a password. The password must be at least 12 characters long and meet the defined complexity requirements.
+  
 </p>
 
  <p>
 <img src="https://i.imgur.com/WWGINmG.png" height="80%" width="80%" 
 </p>
 
-6. Under Inbound port rules, choose Allow selected ports and then select RDP (3389) and HTTP (80) from the drop-down.
+6. Under **Inbound port rules**, choose **Allow selected ports** and then select **RDP (3389)** and **HTTP (80)** from the drop-down.
+  
 </p>
 
 <p>
 <img src="https://i.imgur.com/08yp4Z0.png" height="80%" width="80%" 
 </p>
 
-7. Leave the remaining defaults and then select the Review + create button at the bottom of the page.
+7. Leave the remaining defaults and then select the **Review + create** button at the bottom of the page.
+  
 </p>
 
 <p>
 <img src="https://i.imgur.com/uPslhC4.png" height="80%" width="80%" 
 </p>
   
- 8. After validation runs, select the Create button at the bottom of the page.
+ 8. After validation runs, select the **Create** button at the bottom of the page.
+  
 </p>
 
 <p>
 <img src="https://i.imgur.com/jJeSyxQ.png" height="80%" width="80%" 
 </p>
 
- 9. After deployment is complete, select Go to resource.
+ 9. After deployment is complete, select **Go to resource.**
+  
 </p>
 
 <p>
@@ -75,27 +86,32 @@ Sign in to the Azure portal at https://portal.azure.com.
 Create a remote desktop connection to the virtual machine. These directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store.
 </p>
 
- 1. On the overview page for your virtual machine, select the Connect > RDP.
+ 1. On the overview page for your virtual machine, select the **Connect** > **RDP**.
+ 
 </p>
 
 <p>
 <img src="https://i.imgur.com/JrCU2aa.png" height="80%" width="80%" 
 </p>
 
- 2. In the Connect with RDP tab, keep the default options to connect by IP address, over port 3389, and click Download RDP file.
+ 2. In the **Connect with RDP** tab, keep the default options to connect by IP address, over port 3389, and click **Download RDP file**.
+  
 </p>
 
 <p>
 <img src="https://i.imgur.com/zzIVd7d.png" height="80%" width="80%" 
 </p>
   
-3. Open the downloaded RDP file and click Connect when prompted.
+3. Open the downloaded RDP file and click **Connect** when prompted.
+  
 </p>
 
-4. In the Windows Security window, select More choices and then Use a different account. Type the username as localhost\username, enter the password you created for the virtual machine, and then click OK.
+4. In the **Windows Security** window, select **More choices** and then **Use a different account**. Type the username as localhost\username, enter the password you created for the virtual machine, and then click **OK**.
+
 </p>
 
-5. You may receive a certificate warning during the sign-in process. Click Yes or Continue to create the connection.
+5. You may receive a certificate warning during the sign-in process. Click **Yes** or **Continue** to create the connection.
+
 </p>
 
 <h2>Install web server</h2>
@@ -114,7 +130,8 @@ When done, close the RDP connection to the VM.
  <h2>View the IIS welcome page</h2>
 </p>
 
-In the portal, select the VM and in the overview of the VM, hover over the IP address to show Copy to clipboard. Copy the IP address and paste it into a browser tab. The default IIS welcome page will open, and should look like this:
+In the portal, select the VM and in the overview of the VM, hover over the IP address to show **Copy to clipboard**. Copy the IP address and paste it into a browser tab. The default IIS welcome page will open, and should look like this:
+
 </p>
 
 <p>
@@ -127,13 +144,16 @@ In the portal, select the VM and in the overview of the VM, hover over the IP ad
 When no longer needed, you can delete the resource group, virtual machine, and all related resources.
 </p>
 
-1. On the Overview page for the VM, select the Resource group link.
+1. On the Overview page for the VM, select the **Resource group** link.
+
 </p>
 
-2. At the top of the page for the resource group, select Delete resource group.
+2. At the top of the page for the resource group, select **Delete resource group**.
+
 </p>
 
-3. A page will open warning you that you are about to delete resources. Type the name of the resource group and select Delete to finish deleting the resources and the resource group.
+3. A page will open warning you that you are about to delete resources. Type the name of the resource group and select **Delete** to finish deleting the resources and the resource group.
+
 </p>
 
 Congrats! In this quickstart, you deployed a simple virtual machine, opened a network port for web traffic, and installed a basic web server.
