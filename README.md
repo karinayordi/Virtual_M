@@ -21,11 +21,11 @@ Sign in to the Azure portal at https://portal.azure.com.
 <h2>Create virtual machine</h2>
 1. Enter virtual machines in the search.
 </p>
-2. Under Services, select Virtual machines.
+2. Under **Services**, select **Virtual machines**.
 </p>
-3. In the Virtual machines page, select Create and then Azure virtual machine. The Create a virtual machine page opens.
+3. In the **Virtual machines** page, select **Create** and then **Azure virtual machine**. The **Create a virtual machine** page opens.
 </p>
-4. Under Instance details, enter myVM for the Virtual machine name and choose Windows Server 2019 Datacenter - Gen 2 for the Image. Leave the other defaults.
+4. Under **Instance details**, enter myVM for the **Virtual machine name** and choose Windows Server 2019 Datacenter - Gen 2 for the **Image**. Leave the other defaults.
   
   <p>
 <img src="https://i.imgur.com/7XFaIYK.png" height="80%" width="80%" 
